@@ -3,8 +3,8 @@ layout: home
 title: Algebra314
 ---
 
-Welcome to **Algebra314**.
+**Algebra314** is a mathematics blog focused on understanding ideas from first principles.
 
-This blog explores mathematics from first principles — focusing on understanding rather than memorisation.
+I write about problems that challenge intuition, explain familiar methods more deeply, and explore the reasoning behind concepts that often get memorised too quickly.
 
-I write about topics that challenge intuition, including probability paradoxes, algebraic structures, and the reasoning behind familiar formulas.
+Topics will include probability paradoxes, algebraic thinking, proof, and the structure behind standard results.
