@@ -8,5 +8,5 @@ title: Algebra314
 
   <p>I write about problems that challenge intuition, explain familiar methods more deeply, and explore the reasoning behind concepts that often get memorised too quickly.</p>
 
-  <p>Topics will include probability paradoxes, algebraic thinking, proof, and the structure behind standard results.</p>
+  <p>Topics include probability paradoxes, algebraic thinking, proof, and the structure behind standard results.</p>
 </div>
