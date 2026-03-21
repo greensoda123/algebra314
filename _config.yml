@@ -2,18 +2,4 @@ title: Algebra314
 description: A mathematics blog exploring ideas from first principles.
 url: "https://www.algebra314.com"
 baseurl: ""
-
 theme: minima
-
-author:
-  name: Berkay
-
-header_pages:
-  - about.md
-
-minima:
-  social_links: []
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
