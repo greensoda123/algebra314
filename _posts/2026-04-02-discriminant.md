@@ -10,13 +10,7 @@ $$
 ax^2 + bx + c = 0
 $$
 
-We are often told that the expression
-
-$$
-b^2 - 4ac
-$$
-
-— known as the *discriminant* — determines how many solutions the equation has.
+We are often told that the expression $b^2 - 4ac$ — known as the discriminant — determines how many real roots the equation has.
 
 But why does this happen?
 
@@ -30,88 +24,68 @@ $$
 x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
 $$
 
-we see that everything depends on the square root:
+we see that everything depends on the square root term
 
 $$
-\sqrt{b^2 - 4ac}
+\sqrt{b^2 - 4ac}.
 $$
 
 The nature of this square root determines the number of real solutions.
 
 ---
 
-## Case 1: \( b^2 - 4ac > 0 \)
+## Case 1: $b^2 - 4ac > 0$
 
-If the discriminant is positive, then:
+If the discriminant is positive, then $\sqrt{b^2 - 4ac}$ is a real, non-zero number.
 
-- \( \sqrt{b^2 - 4ac} \) is a real, non-zero number
-- The \( \pm \) produces two different values
-
-So we obtain **two distinct real roots**.
+This means the $\pm$ sign gives two different values, so the quadratic has **two distinct real roots**.
 
 ---
 
-## Case 2: \( b^2 - 4ac = 0 \)
+## Case 2: $b^2 - 4ac = 0$
 
-If the discriminant is zero, then:
-
-$$
-\sqrt{b^2 - 4ac} = 0
-$$
-
-So the formula becomes:
+If the discriminant is zero, then
 
 $$
-x = \frac{-b}{2a}
+\sqrt{b^2 - 4ac} = 0.
 $$
 
-Both solutions collapse into one.
+So the formula becomes
 
-This gives **one repeated root**.
+$$
+x = \frac{-b}{2a}.
+$$
+
+Both values collapse into one, so the quadratic has **one repeated real root**.
 
 ---
 
-## Case 3: \( b^2 - 4ac < 0 \)
+## Case 3: $b^2 - 4ac < 0$
 
-If the discriminant is negative, then:
+If the discriminant is negative, then $\sqrt{b^2 - 4ac}$ is not a real number.
 
-- \( \sqrt{b^2 - 4ac} \) is not real
-- The solutions involve complex numbers
-
-So there are **no real roots**.
+So the quadratic has **no real roots**.
 
 ---
 
 ## A Graphical Interpretation
 
-Consider the graph of:
+Now consider the graph
 
 $$
-y = ax^2 + bx + c
+y = ax^2 + bx + c.
 $$
 
-- If \( b^2 - 4ac > 0 \): the graph crosses the x-axis twice  
-- If \( b^2 - 4ac = 0 \): the graph touches the x-axis once  
-- If \( b^2 - 4ac < 0 \): the graph does not meet the x-axis  
+The roots of the quadratic are exactly the points where the graph meets the $x$-axis.
 
-So the discriminant determines how many times the graph intersects the x-axis — which is exactly the number of real solutions.
+- If $b^2 - 4ac > 0$, the graph crosses the $x$-axis twice.
+- If $b^2 - 4ac = 0$, the graph just touches the $x$-axis once.
+- If $b^2 - 4ac < 0$, the graph does not meet the $x$-axis at all.
 
----
-
-## A Deeper Insight
-
-The discriminant measures whether the square root term in the quadratic formula introduces *variation*.
-
-- If it is positive, the \( \pm \) creates two distinct values  
-- If it is zero, the variation disappears  
-- If it is negative, the solutions leave the real number system  
-
-In this sense, the discriminant encodes the entire behaviour of the solutions.
+So the discriminant determines how many times the graph intersects the $x$-axis, which is why it determines how many real roots there are.
 
 ---
 
 ## Conclusion
 
-The discriminant is not just a value to compute — it reveals the structure of a quadratic equation.
-
-By controlling the square root in the quadratic formula, it determines whether we obtain two, one, or no real solutions.
+The discriminant is not just a number to calculate mechanically. It controls the square root term in the quadratic formula, and that in turn determines whether the equation has two, one, or no real roots.
