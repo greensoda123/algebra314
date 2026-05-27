@@ -1,4 +1,8 @@
-# The Game Worth an Infinite Fortune (That Nobody Would Play)
+---
+layout: post
+title: "The Game Worth an Infinite Fortune"
+date: 2026-05-27
+---
 
 ## The St. Petersburg Paradox and what it reveals about the limits of rational thought
 
