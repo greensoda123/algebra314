@@ -20,47 +20,24 @@ To understand why the game is worth infinite money, you need to understand **exp
 
 Take a simpler example first. A fair die. Roll it and you win whatever number comes up, in pounds. The expected value is:
 
-$$
-\left(\frac{1}{6} \times \pounds 1\right)
-+
-\left(\frac{1}{6} \times \pounds 2\right)
-+
-\left(\frac{1}{6} \times \pounds 3\right)
-+
-\left(\frac{1}{6} \times \pounds 4\right)
-+
-\left(\frac{1}{6} \times \pounds 5\right)
-+
-\left(\frac{1}{6} \times \pounds 6\right)
-=
-\pounds 3.50
-$$
+$(\frac{1}{6} \times £1) + (\frac{1}{6} \times £2) + (\frac{1}{6} \times £3) + (\frac{1}{6} \times £4) + (\frac{1}{6} \times £5) + (\frac{1}{6} \times £6) = £3.50$
 
 That's a clean, finite number. You'd happily pay £2 to play, feel ripped off paying £4, and call it roughly fair at £3.50. Expected value works perfectly.
 
-Now back to the coin game. The probability of heads coming up on flip number $n$ is $\left(\frac{1}{2}\right)^n$. The payout for that outcome is $\pounds 2^n$. So the expected value contribution of each possible outcome is:
+Now back to the coin game. The probability of heads coming up on flip number $n$ is $(\frac{1}{2})^n$. The payout for that outcome is $£2^n$. So the expected value contribution of each possible outcome is:
 
-$$
-\left(\frac{1}{2}\right)^n \times \pounds 2^n = \pounds 1
-$$
+$(\frac{1}{2})^n \times £2^n = £1$
 
 Every single outcome, no matter how unlikely, contributes exactly £1 to the expected value. And there are infinitely many possible outcomes.
 
-$$
-\pounds 1 + \pounds 1 + \pounds 1 + \pounds 1 + \cdots = \infty
-$$
+$£1 + £1 + £1 + £1 + \cdots = \infty$
 
 That third row is where the paradox lives. Every column is £1 and the columns never stop:
 
-$$
-\begin{array}{c|ccccccc}
-x & 2 & 4 & 8 & 16 & \cdots & 2^n & \cdots \\
-\hline
-P(X = x) & \frac{1}{2} & \frac{1}{4} & \frac{1}{8} & \frac{1}{16} & \cdots & \frac{1}{2^n} & \cdots \\
-\hline
-xP(X = x) & 1 & 1 & 1 & 1 & \cdots & 1 & \cdots
-\end{array}
-$$
+| $x$ | $2$ | $4$ | $8$ | $16$ | $\cdots$ | $2^n$ | $\cdots$ |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| $P(X = x)$ | $\frac{1}{2}$ | $\frac{1}{4}$ | $\frac{1}{8}$ | $\frac{1}{16}$ | $\cdots$ | $\frac{1}{2^n}$ | $\cdots$ |
+| $xP(X = x)$ | $1$ | $1$ | $1$ | $1$ | $\cdots$ | $1$ | $\cdots$ |
 
 This is not a trick. The maths is correct. The formula gives the right answer: infinity. The paradox is that this answer is completely useless.
 
