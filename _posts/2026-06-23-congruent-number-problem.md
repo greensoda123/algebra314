@@ -20,7 +20,7 @@ and the area is:
 
 $\frac{1}{2}ab=n$
 
-![A general right-angled triangle with side lengths a, b, c and area n](/assets/general-triangle.png)
+<img src="/assets/general-triangle.png" alt="A general right-angled triangle with side lengths a, b, c and area n" style="max-width: 360px; width: 100%; height: auto; display: block; margin: 1rem auto;">
 
 Where $a$ and $b$ are the adjacent/opposite side lengths, $c$ is the hypotenuse, and $n$ is the area.
 
@@ -40,7 +40,7 @@ $\frac{1}{2}(3)(4)=6$
 
 showing that $6$ is congruent and therefore $n=6$ is a solution.
 
-![A 3, 4, 5 triangle with area 6](/assets/345-triangle.png)
+<img src="/assets/345-triangle.png" alt="A 3, 4, 5 triangle with area 6" style="max-width: 320px; width: 100%; height: auto; display: block; margin: 1rem auto;">
 
 $(3,4,5)$ is an example of a **Pythagorean triple**, which is defined as a set of 3 positive integers that can be used as the side lengths of a right-angled triangle.
 
@@ -66,7 +66,7 @@ $\frac{1}{2}(5)(12)=30$
 
 therefore $30$ is a congruent number.
 
-![A 5, 12, 13 triangle with area 30](/assets/51213-triangle.png)
+<img src="/assets/51213-triangle.png" alt="A 5, 12, 13 triangle with area 30" style="max-width: 320px; width: 100%; height: auto; display: block; margin: 1rem auto;">
 
 Another example is $(40,9,41)$, which is a Pythagorean triple because:
 
@@ -78,7 +78,7 @@ $\frac{1}{2}(40)(9)=180$
 
 therefore $180$ is a congruent number.
 
-![A 40, 9, 41 triangle with area 180](/assets/40941-triangle.png)
+<img src="/assets/40941-triangle.png" alt="A 40, 9, 41 triangle with area 180" style="max-width: 320px; width: 100%; height: auto; display: block; margin: 1rem auto;">
 
 However, to find congruent numbers using this method, it is better if we do not limit ourselves to the side lengths being integers. Instead, we should use any positive rational number for the side lengths, so that we can find more congruent numbers.
 
@@ -104,7 +104,7 @@ $\left(\frac{20}{3},\frac{3}{2},\frac{41}{6}\right)$
 
 triangle is $5$, and the area of the $(40,9,41)$ triangle is $180$.
 
-![A rational triangle with area 5 scaled by 6 into the 40, 9, 41 triangle with area 180](/assets/scaling-triangles.png)
+<img src="/assets/scaling-triangles.png" alt="A rational triangle with area 5 scaled by 6 into the 40, 9, 41 triangle with area 180" style="max-width: 560px; width: 100%; height: auto; display: block; margin: 1rem auto;">
 
 Do you notice any pattern? When we multiplied the lengths by $6$, we multiplied the area by $6^2$. This means that scaling the sides of a triangle by a factor scales the area of the triangle by the square of that factor.
 
@@ -648,7 +648,7 @@ $y^2=x^3-n^2x$
 
 where $n=6$, looks like this:
 
-![The elliptic curve y^2 = x^3 - n^2x with n = 6, showing the point (12,36)](/assets/desmos-n6.png)
+<img src="/assets/desmos-n6.png" alt="The elliptic curve y squared equals x cubed minus n squared x with n equals 6, showing the point (12,36)" style="max-width: 720px; width: 100%; height: auto; display: block; margin: 1rem auto;">
 
 The point $(12,36)$ lies on this curve, and because both coordinates are rational and $y\neq0$, it corresponds to a rational right-angled triangle with area $6$. In this case, the corresponding triangle is $(3,4,5)$.
 
