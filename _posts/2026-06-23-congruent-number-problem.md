@@ -670,11 +670,11 @@ For a square-free positive integer $n$, Tunnell's theorem gives the following te
 
 For even $n$, define:
 
-$h(n)=\left|\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+8z^2=\frac{n}{2}\}\right|$
+$h(n)=\lvert\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+8z^2=\frac{n}{2}\}\rvert$
 
 and:
 
-$k(n)=\left|\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+32z^2=\frac{n}{2}\}\right|$
+$k(n)=\lvert\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+32z^2=\frac{n}{2}\}\rvert$
 
 Here, the vertical bars mean “the number of”, so $h(n)$ and $k(n)$ count how many integer triples $(x,y,z)$ satisfy the equation.
 
@@ -684,11 +684,11 @@ $h(n)=2k(n)$
 
 For odd $n$, define:
 
-$A(n)=\left|\{(x,y,z)\in\mathbb{Z}^3:2x^2+y^2+8z^2=n\}\right|$
+$A(n)=\lvert\{(x,y,z)\in\mathbb{Z}^3:2x^2+y^2+8z^2=n\}\rvert$
 
 and:
 
-$B(n)=\left|\{(x,y,z)\in\mathbb{Z}^3:2x^2+y^2+32z^2=n\}\right|$
+$B(n)=\lvert\{(x,y,z)\in\mathbb{Z}^3:2x^2+y^2+32z^2=n\}\rvert$
 
 For odd $n$, the test is:
 
@@ -700,11 +700,11 @@ Here is $n=2$ as an example.
 
 $2$ is even, so we use the even Tunnell test formula:
 
-$h(2)=\left|\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+8z^2=1\}\right|$
+$h(2)=\lvert\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+8z^2=1\}\rvert$
 
 and:
 
-$k(2)=\left|\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+32z^2=1\}\right|$
+$k(2)=\lvert\{(x,y,z)\in\mathbb{Z}^3:x^2+4y^2+32z^2=1\}\rvert$
 
 Since the right side is $1$, the only possible solutions are:
 
