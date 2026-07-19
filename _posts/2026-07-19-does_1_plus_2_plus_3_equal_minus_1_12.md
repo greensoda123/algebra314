@@ -62,16 +62,11 @@ $1=2S_1$
 
 $S_1=\frac12$
 
-Now that $S_1$ has been assigned the value $\frac12$, we can try to find $S_2$ using some clever addition. We write a second copy of $S_2$ shifted one place to the right:
+Now that $S_1$ has been assigned the value $\frac12$, we can try to find $S_2$ using some clever addition. Adding a second copy of $S_2$, shifted one place to the right, gives:
 
-$$
-\begin{array}{rcrrrrrrr}
-S_2&=&1&-2&+3&-4&+5&-\cdots\\
-S_2&=&&1&-2&+3&-4&+\cdots\\
-\hline
-2S_2&=&1&-1&+1&-1&+1&-\cdots
-\end{array}
-$$
+$2S_2=1+(-2+1)+(3-2)+(-4+3)+(5-4)+\cdots$
+
+$2S_2=1-1+1-1+1-\cdots$
 
 Therefore,
 
@@ -85,14 +80,13 @@ $S_2=\frac14$
 
 Finally, we can use $S_2$ to find a value for the target series:
 
-$$
-\begin{array}{rcrrrrrrr}
-S&=&1&+2&+3&+4&+5&+6+\cdots\\
-S_2&=&1&-2&+3&-4&+5&-6+\cdots\\
-\hline
-S-S_2&=&0&+4&+0&+8&+0&+12+\cdots
-\end{array}
-$$
+$S=1+2+3+4+5+6+\cdots$
+
+$S_2=1-2+3-4+5-6+\cdots$
+
+Subtracting the second series from the first gives:
+
+$S-S_2=0+4+0+8+0+12+\cdots$
 
 The right-hand side is four times the original series:
 
@@ -294,7 +288,7 @@ A simpler version of this idea can be seen using the geometric series
 
 $1+x+x^2+x^3+\cdots=\frac1{1-x}$
 
-This series only converges when $|x|<1$.
+This series only converges when $\lvert x\rvert<1$.
 
 For example, when $x=\frac12$,
 
@@ -310,7 +304,7 @@ However, the expression
 
 $\frac1{1-x}$
 
-also has values outside the range $|x|<1$. If $x=2$, then
+also has values outside the range $\lvert x\rvert<1$. If $x=2$, then
 
 $\frac1{1-2}=-1$
 
@@ -324,7 +318,7 @@ The same basic distinction applies to the zeta function. The series
 
 $\sum_{n=1}^{\infty}\frac1{n^s}$
 
-does not converge at $s=-1$, but the function that it defines for $\operatorname{Re}(s)>1$ can be analytically continued to $s=-1$.
+does not converge at $s=-1$, but the function that it defines for $\mathrm{Re}(s)>1$ can be analytically continued to $s=-1$.
 
 For the continued zeta function,
 
@@ -354,7 +348,7 @@ Begin with the geometric series
 
 $1-x+x^2-x^3+x^4-\cdots=\frac1{1+x}$
 
-which converges when $|x|<1$.
+which converges when $\lvert x\rvert<1$.
 
 Differentiate both sides:
 
@@ -402,16 +396,13 @@ Ramanujan summation gives another way of associating a finite value with a diver
 
 It does not claim that the normal partial sums approach a finite number. Instead, it removes the main divergent part and keeps a finite remainder.
 
-In [blackpenredpen's Ramanujan summation video](https://www.youtube.com/watch?v=U_g_OZLt4OU), the regularised sum is found using a formula closely connected to the [Abel--Plana formula](https://dlmf.nist.gov/2.10):
+In [blackpenredpen's Ramanujan summation video](https://www.youtube.com/watch?v=U_g_OZLt4OU), the regularised sum is found using a formula closely connected to the [Abel--Plana formula](https://dlmf.nist.gov/2.10).
 
-$$
-\frac{f(0)}2+\sum_{n=1}^{\infty}f(n)
-\overset{R}{=}
-i\int_0^\infty
-\frac{f(it)-f(-it)}{e^{2\pi t}-1}\,dt
-$$
+The video places an $R$ above the equals sign. Since that notation does not render properly on this website, I will instead use $R(\cdot)$ to mean the Ramanujan-regularised value.
 
-The $R$ above the equals sign is important. It shows that this is a Ramanujan-regularised value rather than an ordinary sum.
+The formula can then be written as:
+
+$R\left(\frac{f(0)}2+\sum_{n=1}^{\infty}f(n)\right)=i\int_0^\infty\frac{f(it)-f(-it)}{e^{2\pi t}-1}\,dt$
 
 For
 
@@ -423,12 +414,7 @@ $f(x)=x$
 
 Since $f(0)=0$,
 
-$$
-1+2+3+4+\cdots
-\overset{R}{=}
-i\int_0^\infty
-\frac{it-(-it)}{e^{2\pi t}-1}\,dt
-$$
+$R(1+2+3+4+\cdots)=i\int_0^\infty\frac{it-(-it)}{e^{2\pi t}-1}\,dt$
 
 As
 
@@ -440,12 +426,7 @@ $i(2it)=-2t$
 
 we get
 
-$$
-1+2+3+4+\cdots
-\overset{R}{=}
--2\int_0^\infty
-\frac{t}{e^{2\pi t}-1}\,dt
-$$
+$R(1+2+3+4+\cdots)=-2\int_0^\infty\frac{t}{e^{2\pi t}-1}\,dt$
 
 Now use the substitution
 
@@ -461,30 +442,15 @@ $dt=\frac{du}{2\pi}$
 
 Therefore,
 
-$$
--2\int_0^\infty
-\frac{t}{e^{2\pi t}-1}\,dt
-=
--\frac1{2\pi^2}
-\int_0^\infty
-\frac{u}{e^u-1}\,du
-$$
+$-2\int_0^\infty\frac{t}{e^{2\pi t}-1}\,dt=-\frac1{2\pi^2}\int_0^\infty\frac{u}{e^u-1}\,du$
 
 There is a standard connection between this integral, the gamma function and the zeta function:
 
-$$
-\int_0^\infty\frac{u^{s-1}}{e^u-1}\,du
-=
-\Gamma(s)\zeta(s)
-$$
+$\int_0^\infty\frac{u^{s-1}}{e^u-1}\,du=\Gamma(s)\zeta(s)$
 
 For $s=2$,
 
-$$
-\int_0^\infty\frac{u}{e^u-1}\,du
-=
-\Gamma(2)\zeta(2)
-$$
+$\int_0^\infty\frac{u}{e^u-1}\,du=\Gamma(2)\zeta(2)$
 
 The gamma function extends the factorial, with
 
@@ -500,29 +466,17 @@ $\zeta(2)=\frac{\pi^2}{6}$
 
 Therefore,
 
-$$
-\int_0^\infty\frac{u}{e^u-1}\,du
-=
-\frac{\pi^2}{6}
-$$
+$\int_0^\infty\frac{u}{e^u-1}\,du=\frac{\pi^2}{6}$
 
 Substituting this into the earlier result gives
 
-$$
-1+2+3+4+\cdots
-\overset{R}{=}
--\frac1{2\pi^2}\times\frac{\pi^2}{6}
-$$
+$R(1+2+3+4+\cdots)=-\frac1{2\pi^2}\times\frac{\pi^2}{6}$
 
 and therefore
 
-$$
-1+2+3+4+\cdots
-\overset{R}{=}
--\frac1{12}
-$$
+$R(1+2+3+4+\cdots)=-\frac1{12}$
 
-Again, this does not mean that the ordinary series converges to $-\frac1{12}$. The symbol above the equals sign shows that a different method of summation is being used.
+Again, this does not mean that the ordinary series converges to $-\frac1{12}$. The $R$ shows that a different method of summation is being used.
 
 The zeta-regularised value and the Ramanujan-regularised value agree for this series, although they are not exactly the same method in general.
 
@@ -550,12 +504,8 @@ More accurate statements would be
 
 $\zeta(-1)=-\frac1{12}$
 
-or
+or, using the notation defined earlier,
 
-$$
-1+2+3+4+\cdots
-\overset{R}{=}
--\frac1{12}
-$$
+$R(1+2+3+4+\cdots)=-\frac1{12}$
 
 The ordinary series diverges, but $-\frac1{12}$ is a regularised value that can still be associated with it.
