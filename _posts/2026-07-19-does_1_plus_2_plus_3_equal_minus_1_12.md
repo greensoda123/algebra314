@@ -64,9 +64,14 @@ $S_1=\frac12$
 
 Now that $S_1$ has been assigned the value $\frac12$, we can try to find $S_2$ using some clever addition. Adding a second copy of $S_2$, shifted one place to the right, gives:
 
-$2S_2=1+(-2+1)+(3-2)+(-4+3)+(5-4)+\cdots$
-
-$2S_2=1-1+1-1+1-\cdots$
+$$
+\begin{array}{rccccccc}
+S_2 &=& 1 & -2 & +3 & -4 & +5 & -6 + \cdots \\
++\,S_2 &=&   & 1 & -2 & +3 & -4 & +5 - \cdots \\
+\hline
+2S_2 &=& 1 & -1 & +1 & -1 & +1 & -1 + \cdots
+\end{array}
+$$
 
 Therefore,
 
