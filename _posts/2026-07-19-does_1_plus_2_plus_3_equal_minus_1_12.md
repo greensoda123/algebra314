@@ -1,3 +1,9 @@
+---
+layout: post
+title: "Does 1 + 2 + 3 + ... Really Equal -1/12?"
+date: 2026-07-19
+---
+
 ## Introduction
 
 After reading *How to Count to Infinity* by Marcus du Sautoy, I became interested in infinite convergent series, such as
