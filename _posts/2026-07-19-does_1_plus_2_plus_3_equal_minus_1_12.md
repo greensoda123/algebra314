@@ -64,14 +64,42 @@ $S_1=\frac12$
 
 Now that $S_1$ has been assigned the value $\frac12$, we can try to find $S_2$ using some clever addition. Adding a second copy of $S_2$, shifted one place to the right, gives:
 
-$$
-\begin{array}{rccccccc}
-S_2 &=& 1 & -2 & +3 & -4 & +5 & -6 + \cdots \\
-+\,S_2 &=&   & 1 & -2 & +3 & -4 & +5 - \cdots \\
-\hline
-2S_2 &=& 1 & -1 & +1 & -1 & +1 & -1 + \cdots
-\end{array}
-$$
+<div style="overflow-x: auto; margin: 1.5rem 0;">
+<table style="margin: 0 auto; width: auto; border-collapse: collapse; border: none; background: transparent;">
+  <tbody>
+    <tr>
+      <td style="padding: 0.2rem 0.55rem; text-align: right; border: none; background: transparent; white-space: nowrap;">$S_2$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$=$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$1$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$-2$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+3$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$-4$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+5$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent; white-space: nowrap;">$-6+\cdots$</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.2rem 0.55rem; text-align: right; border: none; background: transparent; white-space: nowrap;">$+\,S_2$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$=$</td>
+      <td style="padding: 0.2rem 0.55rem; border: none; background: transparent;"></td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$1$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$-2$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+3$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$-4$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent; white-space: nowrap;">$+5-\cdots$</td>
+    </tr>
+    <tr>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: right; border: none; border-top: 1px solid currentColor; background: transparent; white-space: nowrap;">$2S_2$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$=$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$1$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$-1$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$+1$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$-1$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$+1$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent; white-space: nowrap;">$-1+\cdots$</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 Therefore,
 
