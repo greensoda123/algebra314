@@ -113,13 +113,44 @@ $S_2=\frac14$
 
 Finally, we can use $S_2$ to find a value for the target series:
 
-$S=1+2+3+4+5+6+\cdots$
+<div style="overflow-x: auto; margin: 1.5rem 0;">
+<table style="margin: 0 auto; width: auto; border-collapse: collapse; border: none; background: transparent;">
+  <tbody>
+    <tr>
+      <td style="padding: 0.2rem 0.55rem; text-align: right; border: none; background: transparent; white-space: nowrap;">$S$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$=$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$1$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+2$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+3$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+4$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+5$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent; white-space: nowrap;">$+6+\cdots$</td>
+    </tr>
 
-$S_2=1-2+3-4+5-6+\cdots$
+    <tr>
+      <td style="padding: 0.2rem 0.55rem; text-align: right; border: none; background: transparent; white-space: nowrap;">$-\,S_2$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$=$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$1$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$-2$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+3$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$-4$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent;">$+5$</td>
+      <td style="padding: 0.2rem 0.55rem; text-align: center; border: none; background: transparent; white-space: nowrap;">$-6+\cdots$</td>
+    </tr>
 
-Subtracting the second series from the first gives:
-
-$S-S_2=0+4+0+8+0+12+\cdots$
+    <tr>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: right; border: none; border-top: 1px solid currentColor; background: transparent; white-space: nowrap;">$S-S_2$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$=$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$0$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$+4$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$+0$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$+8$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent;">$+0$</td>
+      <td style="padding: 0.3rem 0.55rem 0.2rem; text-align: center; border: none; border-top: 1px solid currentColor; background: transparent; white-space: nowrap;">$+12+\cdots$</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 The right-hand side is four times the original series:
 
